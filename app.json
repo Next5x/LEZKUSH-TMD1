@@ -1,6 +1,6 @@
 {
-  "name": "LEZKUSH-TMD",
-  "description": "timnasa-tech Whatsapp device bot made by timotheomgya to help Whatsapp users to enjoy while helping...",
+  "name": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
+  "description": "Whatsapp device bot made to help Whatsapp users to enjoy while helping..",
   "keywords": [
     "bot",
     "node",
@@ -22,32 +22,30 @@
       "value": "yes",
       "required": false
     },
-      "AUDIO_REPLY":
-    {
-      "description":"Enter yes for your bot to auto reply audio in all chats",
-      "value":"yes",
-      "required":false
+    "AUDIO_REPLY": {
+      "description": "Enter yes for your bot to auto reply audio in all chats",
+      "value": "yes",
+      "required": false
     },
     "AUTO_REPLY": {
-      "description": "when enabled it automatically sends  auto reply message to members in your pm",
+      "description": "when enabled it automatically sends auto reply message to members in your pm",
       "value": "no",
       "required": false
     },
     "AUTO_REACT_STATUS": {
       "description": "Your contact status will be react automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
       "value": "yes",
-      "required": true
+      "required": false
     },
     "AUTO_BIO": {
       "description": "This automatically update your bio status.Always make sure you insert your OWNER_NAME since it uses that to update your bio name status",
       "value": "yes",
       "required": false
     },
-      "AUTO_SAVE_CONTACTS":
-    {
-      "description":"Enter yes for your bot to auto save contacts",
-      "value":"no",
-      "required":false
+    "AUTO_SAVE_CONTACTS": {
+      "description": "Enter yes for your bot to auto save contacts",
+      "value": "no",
+      "required": false
     },
     "AUTO_DOWNLOAD_STATUS": {
       "description": "Your contact status will be downloaded automatically and sent to you (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
@@ -61,28 +59,23 @@
     },
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
-      "value": "VIEW YOUR STATUS SUCCESSFUL 😇✅✅",
-      "required": true
+      "value": "viewed ✅✅",
+      "required": false
     },
     "AUTO_STATUS_REPLY": {
       "description": "type your genuine status message",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "ANTI_CALL_TEXT": {
       "description": "Type your anticall message to always send when calls are declined.You can as well leave it blank",
-      "value": "Now i'm buys",
-      "required": true
+      "value": "My owner don't receive any call now because it's busy",
+      "required": false
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "LEZKUSH TMD",
+      "value": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
       "required": false 
-    },
-    "CHAT_BOT": {
-      "description": "urs if you want bot to chat automatic",
-      "value": "yes",
-      "required": false
     },
     "PUBLIC_MODE": {
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
@@ -91,8 +84,8 @@
     },
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key (required)",
-      "value": "LEZKUSH TMD",
-      "required": true
+      "value": "HRKU-21f94f36-4701-4c14-8c77-e3f0d998fea8",
+      "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "Insert your Heroku app name (required)",
@@ -106,37 +99,32 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "Lezkush",
-      "required": true
+      "value": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
+      "required": false
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/bsvq5j.jpg",
-      "required": true
-    },
-    "URL2": {
-      "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/bsvq5j.jpg",
+      "value": "https://files.catbox.moe/aktbgo.jpg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
       "description": "yes toactivate no to deactivate",
-      "value": "yes",
+      "value": "no",
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '255774766591')",
-      "value": "255784766591",
-      "required": true
+      "description": "Your phone number (exclude '+' and area code, e.g., '2547')",
+      "value": "+96878856800",
+      "required": false
     },
     "WARN_COUNT": {
       "description": "Set the warning limit for warning commands",
-      "value": "3",
+      "value": "5",
       "required": false
     },
     "STARTING_BOT_MESSAGE": {
       "description": "Set 'yes' to display a starting bot message or 'no' to disable it",
-      "value": "yes",
+      "value": "no",
       "required": true
     },
     "PRESENCE": {
@@ -146,23 +134,23 @@
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
-      "value": "yes",
-      "required": true
+      "value": "no",
+      "required": false
     },
     "ANTI_CALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
-      "value": "no",
-      "required": true
+      "value": "off",
+      "required": false
     },
     "AUTO_BLOCK": {
-      "description": "Type true if you want bot to automatically  block those who spam your dm ",
+      "description": "Type true if you want bot to automatically block those who spam your dm",
       "value": "no",
       "required": false
     },
     "AUTO_REACTION": {
       "description": "Set 'yes' to enable bot reactions to messages in private chats",
       "value": "no",
-      "required": true
+      "required": false
     }
   },
   "formation": {
